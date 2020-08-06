@@ -3,6 +3,7 @@
     border-radius: .5em;
     box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
     margin: 1em;
+    background-color: #fff;
 }
 
 .card img{
@@ -10,7 +11,11 @@
     border-radius: .5em;
 }
 
-.card h3{
+.card-info{
+    padding: 1em;
+}
+
+.card-info h3{
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -18,15 +23,15 @@
     letter-spacing: 0em;
 }
 
-.card p{
-    font-size: 1rem;
-    font-family: 'Roboto', sans-serif;
+.card-info p{
+    font-size: 1rem!important;
+    font-family:'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.00938em;
 }
 
-.card a{
+.card-info a{
     color: #1976d2;
     text-decoration: none;
     font-size: 1rem;
@@ -36,6 +41,6 @@
     letter-spacing: 0.00938em;
 }
 
-.card a:hover{
+.card-info a:hover{
     color: #000;
 }

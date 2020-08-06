@@ -28,15 +28,6 @@ export default function index() {
                         <PortafolioCard/>
                         <PortafolioCard/>
                         <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
-                        <PortafolioCard/>
                     </div>
                 </div>
             </section>

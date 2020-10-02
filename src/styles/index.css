@@ -1,83 +1,69 @@
-.section{
-    padding: 2em;
+.hero {
+  background-image: url("/images/hero.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.hero, .portafolio{
-    background-color: #f3f4f7;
+.main-nav,
+.hero-main,
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.container{
-    width: 80%;
+.main-nav {
+  list-style: none;
+  padding: 0;
+  flex-direction: row;
+}
+
+.main-nav li {
+  margin: 0 1em;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 800;
+}
+
+.main-nav li a:hover {
+  color: #7fd7c3;
+}
+
+.hero-main {
+  height: 600px;
+  max-width: 80%;
+  margin: 1em auto;
+}
+
+.hero-main img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.about {
+  background-color: #7fd7c3;
+  color: #fff;
+  flex-direction: column;
+  min-height: 300px;
+}
+
+.about h1{
     margin: 1em auto;
+    font-weight: 800;
 }
 
-.container h1{
-    font-size: 3.75rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.2;
-    letter-spacing: -0.00833em;
-}
-
-.container p{
-    font-size: 1.5rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 1.334;
-    letter-spacing: 0em; 
-    color: #808080;
-    width: 80%;
-    margin: 1em auto;
-}
-
-.parallax {
-    background-image: url('https://images.squarespace-cdn.com/content/v1/597886853a04111fe3d04c1f/1502298125342-6X0JKOSHCMU4DH104SUC/ke17ZwdGBToddI8pDm48kO5yXVzgNH97Y0stbOL7oGV7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UaLvKKTEpoHa_vHy8M3FKbzHg68KZsWZks1yKvfKtyhIq48P6Er5hTXB8mTK70lUqQ/design-header.jpg?format=2500w');
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.parallax-container{
-    color: #fff;
-}
-
-.parallax-container h1{
-    font-size: 3.75rem;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 300;
-    line-height: 1.2;
-    letter-spacing: -0.00833em;
-}
-
-.contact{
-    background-color: #3a3a3a;
-    color: #fff;
-}
-
-
-.portafolio-list {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-@media screen and (min-width: 768px){
-    .container p{
-        max-width: 600px;
-    }
-    .parallax-container h1{
-        max-width: 600px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 1444px){
-    .container{
-        max-width: 1200px;
-    }
+.about p{
+    max-width: 80%;
+    margin: 0 auto;
+    font-weight: 600;
 }
